@@ -2,7 +2,7 @@ import { Column } from "./column.model";
 import { Label } from "./label.model";
 
 export interface Board{
-    idBoard: number;
+    idBoard: string;
     title: string;
     description: string;
     createdAt: Date;
